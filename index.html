@@ -63,6 +63,28 @@
     span.highlight {
         background-color: #ffffd0;
     }
+    .Me {
+        position:absolute;
+        transition: opacity 5s;
+        -webkit-transition: opacity 5s;
+        border-radius:50%
+    }
+
+    .solid {
+        position:absolute;
+        transition: opacity 5s;
+        -webkit-transition: opacity 5s;
+        opacity: 1;
+        border-radius:50%
+    }
+
+    .transparent {
+        position:absolute;
+        transition: opacity 5s;
+        -webkit-transition: opacity 5s;
+        opacity: 0;
+        border-radius:50%
+    }
   </style>
 
   <!-- icon -->
@@ -109,7 +131,8 @@
           </p>
           </td>
           <td width="33%">
-            <img src="img/me.jpg" class="img-circle" height="260" width="260">
+            <img src="img/me2.jpg" alt="pic1" class="Me" height="260" width="260" align="middle" style="margin:-120px 0px"/>
+            <img id="me" src="img/me.jpg" alt="pic2" class="solid" height="260" width="260" align="middle" style="margin:-120px 0px"/>
           </td>
         </tr>
       </table><br><br>
@@ -456,4 +479,25 @@
   </tr>
 </table>
   </body>
+  <script language =javascript >
+    var curIndex=0;
+    var timeInterval=5000;
+    var arr=new Array();
+    arr[0]="";
+    arr[1]="";
+    setInterval(changeMePic,timeInterval);
+    function changeMePic()
+    {
+        if (curIndex==arr.length-1)
+        {
+            curIndex=0;
+            me.className = "solid";
+        }
+        else
+        {
+            curIndex+=1;
+            me.className = "transparent";
+        }
+    }
+  </script>
 </html>
