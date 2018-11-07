@@ -2,6 +2,28 @@
 <!DOCTYPE>
 <html>
   <head>
+    <br>
+    <div class="header">
+      <nav >
+         <div class="container">
+             <div>
+                 <ul class="nav navbar-nav">
+                    <li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </li>
+                     <li><a style="color: #000000" href="http://chaoqiyang.com"><strong><font size="4"> Homepage</font></strong></a></li>
+                     <li>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </li>
+                     <li><a style="color: #000000" href="#News"><font size="3"> News</font></a></li>
+                     <li><a style="color: #000000" href="#Biography"><font size="3">Biography</font></a></li>
+                     <li><a style="color: #000000" href="#Awards"><font size="3">Scholars & Awards</font></a></li>
+                     <li><a style="color: #000000" href="#Publications"><font size="3">Publications</font></a></li>
+                     <li><a style="color: #000000" href="#Projects"><font size="3">Selected Projects</font></a></li>
+                     <li><a style="color: #000000" href="CV.html"><font size="3">CV</font></a></li>
+                 </ul>
+             </div>
+         </div>
+      </nav>
+      <hr align="left">
+      <br>
+  </div>
   <title>Chaoqi Yang (杨超琪) - Homepage</title>
   <meta name="description" content="This is Chaoqi Yang's Homepage, a junior undergrad at Shanghai Jiao Tong University(SJTU). These days I works as a Research Intern at University of Illinois Urbana-Champion(UIUC), under the supervision of Prof. Hair.">
   <meta name="keywords" content="Chaoqi Yang, ycqsjtu, Yang Chaoqi, 杨超琪, yangchaoqi, chaoqiyang, sjtu, http://chaoqiyang.com">
@@ -9,11 +31,10 @@
   <meta name="author" content="Chaoqi Yang, ycqsjtu@gmail.com, http://chaoqiyang.com">
   <meta name="copyright" content="Chaoqi Yang">
   <meta name="baidu-site-verification" content="0TUmhOKRmP" />
-  <style type="text/css">
+  <!--<style type="text/css">
     body {transform: scale(1); }
-  </style>
+  </style>-->
   <style type="text/css">
-    /* Color scheme stolen from Sergey Karayev */
     a {
     color: #1772d0;
     text-decoration:none;
@@ -81,14 +102,24 @@
         border-radius:50%
     }
 
-    .transparent {
-        position:absolute;
-        transition: opacity 5s;
-        -webkit-transition: opacity 5s;
-        opacity: 0;
-        border-radius:50%
-    }
+    .float-button {
+      position: fixed;
+      height: 90px;
+      width: 90px;
+      bottom: 90px;
+      right: 50px;
+      background: #c0c0c0;
+      padding: -2em;
+      border: none;
+      color: white;
+      font-size: 5em;
+      cursor: pointer;
+      outline: none;
+      overflow: hidden;
+      border-radius: 100px;
+      }
   </style>
+
 
   <!-- icon -->
   <link rel="icon" href="img/icon.png">
@@ -97,6 +128,21 @@
   <link rel="stylesheet" href="static/bootstrap.min.css">
   <script src="static/jquery.min.js"></script>
   <script src="static/bootstrap.min.js"></script>
+  <script>
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("Back2Top").style.display = "block";
+        } else {
+            document.getElementById("Back2Top").style.display = "none";
+        }
+    }
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+  </script>
   <meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
   <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
   </script>
@@ -105,8 +151,9 @@
 
 
   <body>
+  <button onclick="topFunction()" id="Back2Top" class="float-button">↑</button>
 
-  <table width="870" border="0" align="center" cellspacing="0" cellpadding="0">
+  <table width="870" border="0" align="center" cellspacing="0" cellpadding="0" class="main">
     <div class="row clearfix" style='margin-top: 4%'></div><!--padding top-->
     <tr>
     <td>
@@ -122,7 +169,7 @@
 
           <p><strong>E-mail:</strong>&nbsp ycqsjtu@gmail.com</p>
           <p><strong>Phone:</strong>&nbsp (+86) 158-2118-8556</p>
-          <p><strong>School:</strong>&nbsp Shanghai Jiao Tong University(SJTU)</p>
+          <p><strong>School:</strong>&nbsp Shanghai Jiao Tong University (SJTU)</p>
           <p><strong>Address:</strong>&nbsp Minhang District, Shanghai, P.R.China</p>
           <br>
 
@@ -145,29 +192,9 @@
             <img id="me" src="img/me.jpg" alt="pic2" class="solid" height="260" width="260" align="middle" style="margin:-120px 0px"/>
           </td>
         </tr>
-       </table><br><br>
-
-       <hr align="left" style="width:85%">
-       <nav >
-          <div class="container">
-              <div>
-                  <ul class="nav navbar-nav">
-                      <li><a style="color: #000000" href="#News"><font size="4">News</font></a></li>
-                      <li><a style="color: #000000"><font size="4">|</font></a></li>
-                      <li><a style="color: #000000" href="#Biography"><font size="4">Biography</font></a></li>
-                      <li><a style="color: #000000"><font size="4">|</font></a></li>
-                      <li><a style="color: #000000" href="#Awards"><font size="4">Scholars & Awards</font></a></li>
-                      <li><a style="color: #000000"><font size="4">|</font></a></li>
-                      <li><a style="color: #000000" href="#Publications"><font size="4">Publications</font></a></li>
-                      <li><a style="color: #000000"><font size="4">|</font></a></li>
-                      <li><a style="color: #000000" href="#Projects"><font size="4">Selected Projects</font></a></li>
-                  </ul>
-              </div>
-          </div>
-       </nav>
-       <hr align="left" style="width:85%">
-       <br>
-
+       </table>
+       <hr align="left" style="border-width: 2px;">
+       <br><br>
 
        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
        <tr>
@@ -176,11 +203,11 @@
            <div class="li">
              <ul>
                <br>
-               <li><strong style="color: #FF0000">[October 24th, 2018]</strong>&nbsp Get Rongchang Innovation Scholarship, ￥30,000 CNY. Cong!</li><br>
-               <li><strong style="color: #FF0000">[October 21th, 2018]</strong>&nbsp Attend CIKM'18 in Turin, Italy. First oral presentation!</li><br>
-               <li><strong style="color: #000000">[October 3th, 2018]</strong>&nbsp After 14-hour flight, I go back to Shanghai!</li><br>
-               <li><strong style="color: #000000">[September 28th, 2018]</strong>&nbsp I get the chance to work in Tencent AI Lab from November 2018!</li><br>
-               <li><strong style="color: #000000">[September 5th, 2018]</strong>&nbsp First trial on GRE, I get 329 out of 340, and 4.0 out of 6.0 in Analytical Writing! Exciting!</li><br>
+               <li><strong style="color: #FF0000">[October 24th, 2018]</strong>&nbsp Get Rongchang Innovation Scholarship, ￥30,000 CNY. Cong!</li>
+               <li><strong style="color: #FF0000">[October 21th, 2018]</strong>&nbsp Attend CIKM'18 in Turin, Italy. First oral presentation!</li>
+               <li><strong style="color: #000000">[October 3th, 2018]</strong>&nbsp After 14-hour flight, I go back to Shanghai!</li>
+               <li><strong style="color: #000000">[September 28th, 2018]</strong>&nbsp I get the chance to work in Tencent AI Lab from November 2018!</li>
+               <li><strong style="color: #000000">[September 5th, 2018]</strong>&nbsp First trial on GRE, I get 329 out of 340, and 4.0 out of 6.0 in Analytical Writing! Exciting!</li>
                <!--<li><strong style="color: #000000">[August 25th, 2018]</strong>&nbsp My paper for ICDM'18 has been accepted! Hope to attend this conference in Singapore!</li><br>-->
                <!--<li><strong style="color: #000000">[August 8th, 2018]</strong>&nbsp My paper for CIKM'18 has been accepted! Hope to attend this conference in Italy! Go Juventus!</li><br>-->
                <li>...</li>
@@ -189,24 +216,24 @@
          </td>
        </tr>
        </table>
-
+       <hr align="left" style="border-width: 2px;">
       <br>
       <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
       <tr>
         <td width="80%" valign="middle">
           <strong><heading id="Biography">Biography</heading></strong>
           <p style="padding-top: 10">
-            I am a junior undergrad at <a href="http://infosec.sjtu.edu.cn/">School of Cyber Security</a> in <a href="https://www.sjtu.edu.cn">Shanghai Jiao Tong University</a>. I work as a student researcher in <a href="http://anl.sjtu.edu.cn/">Advanced Network Laboratory(ANL)</a> at the <a href="http://www.cs.sjtu.edu.cn/">Department of Computer Science</a>, under the supervision of Associate Professor <a href="http://www.cs.sjtu.edu.cn/~gao-xf/">Dr. Gao Xiaofeng</a>.
+            I am a senior undergrad at <a href="http://infosec.sjtu.edu.cn/">School of Cyber Security</a> in <a href="https://www.sjtu.edu.cn">Shanghai Jiao Tong University</a>. I work as a Student Researcher in <a href="http://anl.sjtu.edu.cn/">Advanced Network Laboratory (ANL)</a> at the <a href="http://www.cs.sjtu.edu.cn/">Department of Computer Science</a>, under the supervision of Associate Professor <a href="http://www.cs.sjtu.edu.cn/~gao-xf/">Dr. Gao Xiaofeng</a>.
           </p>
           <p>
-            Recently, I work as a <u>Research Intern</u> with deep learning on User Credibility, in University of Illinois Urbana-Champaign(UIUC). My advisor is <a href="http://sundaram.cs.illinois.edu/">Dr. Hari Sundaram</a>.
+            This Summer, I fortunately worked as a Research Intern with GCN in Community QA, in University of Illinois Urbana-Champaign (UIUC). My advisor is <a href="http://sundaram.cs.illinois.edu/">Dr. Hari Sundaram</a>.
           </p>
           <p>
-            * November this year, I will join <a href="https://ai.tencent.com/ailab/index.html">Tencent AI Lab</a> in Beijing Division to do research, on <strong><u>Advertising Bidding using Reinforcement Learning</u></strong>, until next year before my graduation.
+            Recently, I join <a href="https://ai.tencent.com/ailab/index.html">Tencent AI Lab</a> in Beijing Division to do research, on <strong><u>Reinforcement Learning in Advertisement Price Bidding</u></strong>, until next year before my graduation.
           </p>
           <hr>
           <p>
-          <strong style="color: #000000">* This year, I will apply for 2019 Fall CS Ph.D. Programs on Data Mining and Machine Learning, the applicational ones, especailly those interdisciplinary, such as Social Networks, Multimedia, etc.</strong>
+          <strong style="color: #000000">* This year, I will apply for 2019 Fall CS Ph.D. Programs on Data Mining and Machine Learning, especailly those interdisciplinary, such as Social Networks, Multimedia.</strong>
           </p>
 
           <hr>
@@ -214,10 +241,10 @@
           <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
             <tr>
               <td width="85%" valign="middle">
-                <p><strong style="font-size: 21px">Shanghai Jiao Tong University(SJTU), Shanghai, China</strong></p>
-                <p><strong>Major:</strong>&nbsp B.E., Information Security, at School of Cyber Security</p>
+                <p><strong style="font-size: 21px">Shanghai Jiao Tong University (SJTU), Shanghai, China</strong></p>
+                <p><strong>Major:</strong>&nbsp B.S., Information Security, at School of Cyber Security</p>
                 <p><strong>GPA:</strong>&nbsp 91.08/100</p>
-                <p><strong>Status:</strong>&nbsp Undergradate, Sept. 2015 - June 2019(Expected)</p>
+                <p><strong>Status:</strong>&nbsp Undergradate, Sept. 2015 - June 2019 (Expected)</p>
               </td>
               <td width="15%" valign="middle">
                 <img src="img/sjtu.jpg" class="img-circle" height="160" width="160">
@@ -228,7 +255,7 @@
           <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
             <tr>
               <td width="85%" valign="middle">
-                <p><strong style="font-size: 21px">University of Illinois at Urbana-Champaign(UIUC), Illinois, the United States</strong></p>
+                <p><strong style="font-size: 21px">University of Illinois at Urbana-Champaign (UIUC), Illinois, USA</strong></p>
                 <p><strong>Project:</strong>&nbsp UserCredibility - Community Question Answering (GCN)</p>
                 <p><strong>Advisor:</strong>&nbsp <a href="http://sundaram.cs.illinois.edu/">Dr. Hari Sundaram</a>, Associate Professor in UIUC</p>
                 <p><strong>Partner:</strong>&nbsp <a href="https://scholar.google.com/citations?user=uzA7CWUAAAAJ&hl=en">Kanika Narang</a> & <a href="https://scholar.google.co.in/citations?user=pWaAozwAAAAJ&hl=en">Adit Krishnan</a>, PhD Student in UIUC</p>
@@ -244,6 +271,20 @@
         </td>
       </tr>
       </table><br><br>
+      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+        <tr>
+          <td width="85%" valign="middle">
+            <p><strong style="font-size: 21px">Tencent, Beijing, China</strong></p>
+            <p><strong>Project:</strong>&nbsp Reinforcement Learning in Advertisement Price Bidding</p>
+            <p><strong>Status:</strong>&nbsp Undergraduate Researcher, Nov. 2018 - June 2019 (Expected)</p>
+          </td>
+          <td width="15%" valign="middle">
+            <img src="img/tencent.png" height="40" width="200">
+          </td>
+        </tr>
+      </table>
+      <hr align="left" style="border-width: 2px;">
+      <br><br>
 
       <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
       <tr>
@@ -254,51 +295,51 @@
               <p align="center">
                 <u align="center">Scholarship Awards</u>
               </p>
-              <li><span>Level-B(Top 10%) SJTU Outstanding Scholarships</span>
+              <li><span>Level-B (Top 10%) SJTU Outstanding Scholarships</span>
                   <span style="float:right;"><a>2016 & 2017 & 2018</a></span>
               </li>
-              <li><span>Rong Chang Innovation Scholarship(Top 10 out of 914 in department)</span>
+              <li><span>Rong Chang Innovation Scholarship (Awarded 20 students in University)</span>
                   <span style="float:right;"><a>2017</a></span>
               </li>
-              <li><span>Huawei Scholarship(Top 5%)</span>
+              <li><span>Huawei Scholarship (Top 5%)</span>
                   <span style="float:right;"><a>2017</a></span>
               </li>
-              <li><span>Kwang-Hua Scholarship(Top 5%)</span>
+              <li><span>Kwang-Hua Scholarship (Top 5%)</span>
                   <span style="float:right;"><a>2016</a></span>
               </li>
-              <li><span>Merit Student(Top 5%) of Shanghai Jiao Tong University</span>
+              <li><span>Merit Student (Top 5%) of Shanghai Jiao Tong University</span>
                   <span style="float:right;"><a>2017 & 2018</a></span>
               </li>
               <hr>
               <p align="center">
                 <u align="center">Competition Awards</u>
               </p>
-              <li><span>Meritorious Winner(Top 8.88%), Mathematics Contest in Modeling(MCM)</span>
+              <li><span>1st Prize (Top 8.88%, Meritorious Winner), Mathematics Contest in Modeling (MCM)</span>
                   <span style="float:right;"><a>2018</a></span>
               </li>
-              <li><span>2nd Prize(Top 10%), China Undergraduate Mathematical Contest in Modeling(CUMCM)</span>
+              <li><span>2nd Prize (Top 10%), China Undergraduate Mathematical Contest in Modeling (CUMCM)</span>
                   <span style="float:right;"><a>2017</a></span>
               </li>
-              <li><span>2nd Prize(Top 10%), Chinese Mathematics Competitions(CMC)</span>
+              <li><span>2nd Prize (Top 10%), Chinese Mathematics Competitions (CMC)</span>
                   <span style="float:right;"><a>2016</a></span>
               </li>
-              <li><span>3rd Prize(Top 20%), China Undergraduate Physics Competition(CUPC)</span>
+              <li><span>3rd Prize (Top 20%), China Undergraduate Physics Competition (CUPC)</span>
                   <span style="float:right;"><a>2016</a></span>
               </li>
-              <li><span>3rd Prize(Top 5%), Shing-Tung Yau Science Awards(Yau Awards)</span>
+              <li><span>3rd Prize (Top 5%), Shing-Tung Yau Science Awards (Yau Awards)</span>
                   <span style="float:right;"><a>2015</a></span>
               </li>
-              <li><span>1st Prize(Top 0.1% in Zhejiang Province), Chinese Mathematical Olympiad(CMO)</span>
+              <li><span>1st Prize (Top 0.1% in Zhejiang Province), Chinese Mathematical Olympiad (CMO)</span>
                   <span style="float:right;"><a>2014</a></span>
               </li>
               <hr>
               <p align="center">
-                <u align="center">Travel Grant Awards</u>
+                <u align="center">Student Travel Grant Awards</u>
               </p>
-              <li><span>Meng-Minwei Student Travel Grant Award</span>
+              <li><span>Meng-Minwei Travel Grant Award (DEXA'18 in Regensberg, Germany)</span>
                   <span style="float:right;"><a>2018</a></span>
               </li>
-              <li><span>ACM SIGIR Student Travel Grant Award</span>
+              <li><span>ACM SIGIR Travel Grant Award (CIKM'18 in Turin, Italy)</span>
                   <span style="float:right;"><a>2018</a></span>
               </li>
 
@@ -307,7 +348,9 @@
           </p>
         </td>
       </tr>
-      </table><br><br>
+      </table>
+      <hr align="left" style="border-width: 2px;">
+      <br><br>
 
 
 
@@ -340,11 +383,11 @@
         	  <a href="http://www.cs.sjtu.edu.cn/~gao-xf/">Xiaofeng Gao</a>,
         	  <a href="http://www.cs.sjtu.edu.cn/PeopleDetail.aspx?id=111">Guihai Chen</a>
             <br>
-                <em>(Accepted by) International Conference on Database and Expert Systems Applications(DEXA)</em>, 2018 <a href="https://link.springer.com/chapter/10.1007/978-3-319-98809-2_21">[link]</a><a href="source/DEXA2018.pdf">[paper]<a href="https://github.com/ycq091044/EPOC-cascade-diffusion">[github]</a><br>
+                <em>(Accepted by) International Conference on Database and Expert Systems Applications (DEXA)</em>, 2018 <a href="https://link.springer.com/chapter/10.1007/978-3-319-98809-2_21">[link]</a><a href="source/DEXA2018.pdf">[paper]<a href="https://github.com/ycq091044/EPOC-cascade-diffusion">[github]</a><a href="source/DEXA-ppt.pptx">[ppt]</a><br>
                 <p></p>
                 <p>We employ survival theory and design a
                   novel survival perspective Early Pattern detection model for Outbreak
-                  Cascades(EPOC).</p>
+                  Cascades (EPOC).</p>
           </td>
         </tr>
 
@@ -366,7 +409,7 @@
           </td>
           <td width="3%" ></td>
           <td valign="top" width="72%" style="padding-top: 30">
-            <a href="#">
+            <a href="https://dl.acm.org/citation.cfm?id=3271714">
                     <papertitle>Adversarial Training Model Unifying Feature Driven and Point Process Perspectives for Event Popularity Prediction</papertitle>
             </a>
             <br>
@@ -377,9 +420,9 @@
             Paul Weng,
             <a href="http://www.cs.sjtu.edu.cn/PeopleDetail.aspx?id=111">Guihai Chen</a>
             <br>
-                <em>(Accepted by) International Conference on Information and Knowledge Management(CIKM)</em>, 2018 <a href="source/CIKM2018.pdf">[paper]</a><a href="https://github.com/ycq091044/CIKM2018-PreNets">[github]</a><br>
+                <em>(Accepted by) International Conference on Information and Knowledge Management (CIKM)</em>, 2018 <a href="https://dl.acm.org/citation.cfm?id=3271714">[link]</a><a href="source/CIKM2018.pdf">[paper]</a><a href="https://github.com/ycq091044/CIKM2018-PreNets">[github]</a><a href="source/CIKM-ppt.pdf">[ppt]</a><br>
                 <p></p>
-                <p>We propose PreNets unifying the feature driven method and the point process method in an adversarial manner.</p>
+                <p>We propose PreNets unifying the feature driven method and the point process method in an adversarial way.</p>
           </td>
         </tr>
 
@@ -410,12 +453,14 @@
             <a href="http://www.cs.sjtu.edu.cn/~gao-xf/">Xiaofeng Gao</a>, Peng He,
             <a href="http://www.cs.sjtu.edu.cn/PeopleDetail.aspx?id=111">Guihai Chen</a>
             <br>
-                <em>(Accepted by) IEEE International Conference on Data Mining(ICDM)</em>, 2018 <a href="source/ICDM2018.pdf">[paper]</a><a href="https://github.com/ycq091044/ICDM2018-EPAB">[github]</a><br>
+                <em>(Accepted by) IEEE International Conference on Data Mining (ICDM)</em>, 2018 <a href="source/ICDM2018.pdf">[paper]</a><a href="https://github.com/ycq091044/ICDM2018-EPAB">[github]</a><br>
                 <p></p>
-                <p>We propose EPAB, using early patterns and early indicators to make future popularity predictable using observable features, based on a Bayesian perspective.</p>
+                <p>We propose EPAB, using early patterns and early indicators to make future popularity predictable using observable features, based on a Bayesian structure learning.</p>
           </td>
         </tr>
-      </table><br><br><br>
+      </table>
+      <hr align="left" style="border-width: 2px;">
+      <br><br>
 
       <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
         <strong><heading id="Projects">Selected Projects</heading></strong>
@@ -547,7 +592,7 @@
           <br><br><br>
           <p align="left">
             <font size="3">
-            Updated on 12th Sept, 2018.
+            Updated on 10th Nov, 2018.
             </font>
           </p>
            <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=080808&w=400&t=tt&d=3oxCj5P05qR8ckw_4sWkIFif-YAYdnrYtMp3heUeUic&co=ffffff&ct=808080&cmo=3acc3a&cmn=ff5353"></script>  <font size="3">
