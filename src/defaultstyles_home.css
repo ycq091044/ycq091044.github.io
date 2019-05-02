@@ -47,13 +47,21 @@ body {
 	font-family:"Lucida Sans Unicode", "Lucida Grande", Arial, Helvetica, sans-serif;
 }
 
-#container {
+##container {
+	width:1000px;
+	margin:auto;
+	font-size:14px;
+	position: relative;
+}
+
+#container2 {
 	width:1000px;
 	margin:auto;
 	font-size:14px;
 	position: relative;
 	background: #ffffff;
 }
+
 #ucb {
 }
 #wrapper {
