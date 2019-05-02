@@ -1,0 +1,368 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul{
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 0px 0px;
+    list-style: none;
+    margin-right: 20px;
+    padding: 0px;
+}
+
+
+li.news::before {content: url("img/li.png");
+	display: inline-block; width: 1em;}
+
+li.news {
+	margin-left: 5px;  
+}
+li {
+	margin-left: 5px;  
+}
+
+.entry ul li{
+    list-style: disc !important;
+    margin-left: 20px;
+    padding: 3px 0 0 5px;
+}
+
+a:link, a:visited {
+	text-decoration:none;
+	color:#065388;
+}
+a:hover {
+	color:#990000;	
+}
+a.current:link, a.current:visited {
+	color:#111;
+	font-weight:bold;
+}
+img { border:none; }
+
+body {
+	margin:0;
+	padding:0;
+	background-color:#888;
+	color:#333;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", Arial, Helvetica, sans-serif;
+}
+
+#container {
+	width:1000px;
+	margin:auto;
+	font-size:14px;
+	position: relative;
+	background: #ffffff;
+}
+#ucb {
+}
+#wrapper {
+ box-shadow: 0 0 5px #666;
+ -webkit-box-shadow: 0 0 5px #666;
+ -moz-box-shadow: 0 0 5px #666;
+ -moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	margin:5px 0;
+	overflow:hidden;
+
+}	
+#banner_index {
+	color:#FFF;
+	padding:25px;
+	-moz-border-radius-topleft:10px;
+	-webkit-border-top-left-radius:10px;
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	background-color:#FFF;
+	margin:0;
+	background-image: url(img/alps.jpg);
+	background-size: 100%;
+}
+		
+div.back {
+	background: #ffffff;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+#banner_posts p {
+	margin:0;
+	text-transform: uppercase;
+	font-size:14px;
+	padding-left:1em
+}
+
+#banner_posts {
+	color:#FFF;
+	padding:25px;
+	-moz-border-radius-topleft:10px;
+	-webkit-border-top-left-radius:10px;
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	background-color:#FFF;
+	margin:0;
+	background-image: url(img/forest.jpg);
+	background-size: 100%;
+}
+
+#banner_index p {
+	margin:0;
+	text-transform: uppercase;
+	font-size:14px;
+	padding-left:1em
+}
+
+#banner_bio {
+	color:#FFF;
+	padding:25px;
+	-moz-border-radius-topleft:10px;
+	-webkit-border-top-left-radius:10px;
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	background-color:#FFF;
+	margin:0;
+	background-image: url(img/plane2.jpg);
+	background-size: 100%;
+}
+
+#banner_bio p {
+	margin:0;
+	text-transform: uppercase;
+	font-size:14px;
+	padding-left:1em
+}
+
+#banner_teaching {
+	color:#FFF;
+	padding:25px;
+	-moz-border-radius-topleft:10px;
+	-webkit-border-top-left-radius:10px;
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	background-color:#FFF;
+	margin:0;
+	background-image: url(img/boSea.jpg);
+	background-size: 100%;
+}
+
+#banner_teaching p {
+	margin:0;
+	text-transform: uppercase;
+	font-size:14px;
+	padding-left:1em
+}
+
+#banner_publications {
+	color:#FFF;
+	padding:25px;
+	-moz-border-radius-topleft:10px;
+	-webkit-border-top-left-radius:10px;
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	background-color:#FFF;
+	margin:0;
+	background-image: url(img/sky.jpg);
+	background-size: 100%;
+}
+
+#banner_publications p {
+	margin:0;
+	text-transform: uppercase;
+	font-size:14px;
+	padding-left:1em
+}
+
+#banner_contact {
+	color:#FFF;
+	padding:25px;
+	-moz-border-radius-topleft:10px;
+	-webkit-border-top-left-radius:10px;
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	background-color:#FFF;
+	margin:0;
+	background-image: url(img/corn.jpg);
+	background-size: 100%;
+}
+
+#banner_contact p {
+	margin:0;
+	text-transform: uppercase;
+	font-size:14px;
+	padding-left:1em
+}
+
+
+h1 {
+	margin:0;
+	padding: 0;
+	font-size:30px;
+	
+}
+#nav {
+      background:#222;
+   overflow:hidden;
+   height: 40px;
+}
+#nav ul {
+  
+   list-style:none;
+   margin:0;
+   padding:0;
+  
+}
+#nav ul li {
+   display:inline;
+   float:left;
+   list-style:none;
+   margin:5;
+   padding:0;
+  
+}
+#nav ul li a {
+   display:block;
+   margin:0;
+   padding:0px 10px;
+   color:#fff;
+   text-decoration:none;
+   line-height:40px;
+}
+#nav ul li a:hover {
+   background:#FFF;
+   color:#333;
+}
+#page {
+	background-color:#FFF;
+	overflow:auto;
+	padding:15px 0;
+	clear: both;
+	/*
+	-moz-border-radius-bottomleft:10px;
+	-webkit-border-bottom-left-radius:10px;
+	-moz-border-radius-bottomright:10px;
+	-webkit-border-bottom-right-radius:10px;
+	*/
+}
+#sidebar {
+	min-width:210px;
+	margin:0 15px;
+	float:right;
+	line-height:140%;
+	background-color:#EEE;
+	border: 1px solid #E5E5E5;
+}
+
+#sidebar h3, #sidebar p {
+	padding:0 10px;
+}
+#content {
+	margin-left:15px;
+	margin-right:15px;
+	line-height:160%;
+}
+#footer {
+	padding:15px;	
+	overflow:auto;
+	color:#FFF;
+	font-size:90%;
+	text-align:right;
+}
+#footer img {
+	float:left; 
+	margin-right:15px;
+}
+
+h2 {
+	margin-top:0;
+	color:#494949;
+	font-weight:bold;
+	font-size:200%;
+}
+
+h3 {
+	margin-top:0;
+	color:#000000;
+	font-weight:bold;
+	font-size:120%;
+}
+
+h3.pattern:before {
+	content: "::";
+	color:#2968D0;
+}
+h3.pattern {
+	margin-top:0;
+	color:#2968D0;
+	font-weight:normal;
+	font-size:120%;
+}
+
+.photo_btn {
+	position: absolute;
+	float: right;
+	margin-top: -50px;
+	margin-left: -50px;
+}
+.photo_btn2 {
+	position: absolute;
+	float: right;
+	margin-top: -50px;
+	margin-left: -110px;
+}
+
+.right {
+	float:right;
+	margin: 0 0 15px 15px;
+}
+.left {
+	float:left;
+	margin:0 15px 15px 0;
+}
+
+#contentbar {
+	width:310px;
+	margin-top: 0;
+	margin-right: 15px;
+	margin-bottom: 0;
+	margin-left: 0px;
+	float:left;
+	line-height:140%;
+	background-color:#EEE;
+	border: 1px solid #E5E5E5;
+}
+
+#contentbar h3, #contentbar p {
+	padding:0 10px;
+}
+#travel_pic {margin-left:auto; margin-right:auto; display:block; padding:10px;}
+#work_pic {margin-left:auto; margin-right:auto; display:none; padding:10px;}
+#page {
+	
+	-moz-border-radius-bottomleft:10px;
+	-webkit-border-bottom-left-radius:10px;
+	-moz-border-radius-bottomright:10px;
+	-webkit-border-bottom-right-radius:10px;
+
+}
+/* uncomment the specific line to hide the content div on specific pages */
+/* .contentbar1 {display:none}  */
+ .contentbar2 {display:none}  
+/* .contentbar3 {display:none}  */
+/* .contentbar4 {display:none}  */
+/* .contentbar5 {display:none}  */
+
+select{
+	background: transparent;
+	padding-left: 5px;
+	padding-right: 10px;
+}
+
+div.blockquote {
+	margin: 2em;
+	border-radius: 0.5em;
+	border: 1px solid #000;
+} 
+
+div.innerbq {
+	margin: 1em;
+}
