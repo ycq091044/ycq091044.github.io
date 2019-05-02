@@ -331,8 +331,8 @@ h3.pattern {
 	width:310px;
 	margin-top: 0;
 	margin-right: 15px;
-	margin-bottom: 0;
 	margin-left: 0px;
+	margin-bottom: 0px;
 	float:left;
 	line-height:140%;
 	background-color:#EEE;
@@ -374,3 +374,10 @@ div.blockquote {
 div.innerbq {
 	margin: 1em;
 }
+
+td {
+	padding: 0;
+	margin: 0;
+}
+
+table{font-size:14px;}
