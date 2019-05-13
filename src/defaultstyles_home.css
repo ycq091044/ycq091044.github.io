@@ -395,30 +395,58 @@ table{font-size:14px;}
 
 
 
-h1.article {
+h1.article_phone {
 	margin:0;
 	padding: 0;
 	font-size:60px;
 	
 }
 
-h2.article {
+h2.article_phone {
 	margin-top:0;
 	color:#494949;
 	font-weight:bold;
 	font-size:55px;
 }
 
-p.article {
-	font-size:38px;
+p.article_phone {
+	font-size:45px;
 }
-i.article {
-	font-size:38px;
+i.article_phone {
+	font-size:45px;
 }
 
-h3.article {
+h3.article_phone {
 	margin-top:0;
 	color:#494949;
 	font-weight:bold;
 	font-size:50px;
+}
+
+h1.article_web {
+	margin:0;
+	padding: 0;
+	font-size:45px;
+	
+}
+
+h2.article_web {
+	margin-top:0;
+	color:#494949;
+	font-weight:bold;
+	font-size:300%;
+}
+
+p.article_web {
+	font-size:130%;
+}
+i.article_web {
+	font-size:130%;
+}
+
+h3.article_web {
+	margin-top:0;
+	color:#494949;
+	font-weight:bold;
+	font-size:220%;
 }
