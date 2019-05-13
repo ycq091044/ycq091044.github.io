@@ -294,6 +294,17 @@ h3 {
 	font-size:120%;
 }
 
+h1 {
+	margin:0;
+	padding: 0;
+	font-size:30px;
+	
+}
+
+
+
+
+
 h3.pattern:before {
 	content: "::";
 	color:#2968D0;
@@ -381,3 +392,33 @@ td {
 }
 
 table{font-size:14px;}
+
+
+
+h1.article {
+	margin:0;
+	padding: 0;
+	font-size:45px;
+	
+}
+
+h2.article {
+	margin-top:0;
+	color:#494949;
+	font-weight:bold;
+	font-size:300%;
+}
+
+p.article {
+	font-size:130%;
+}
+i.article {
+	font-size:130%;
+}
+
+h3.article {
+	margin-top:0;
+	color:#494949;
+	font-weight:bold;
+	font-size:220%;
+}
