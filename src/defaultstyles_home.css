@@ -398,7 +398,7 @@ table{font-size:14px;}
 h1.article {
 	margin:0;
 	padding: 0;
-	font-size:55px;
+	font-size:60px;
 	
 }
 
@@ -406,19 +406,19 @@ h2.article {
 	margin-top:0;
 	color:#494949;
 	font-weight:bold;
-	font-size:50px;
+	font-size:55px;
 }
 
 p.article {
-	font-size:35px;
+	font-size:45px;
 }
 i.article {
-	font-size:35px;
+	font-size:45px;
 }
 
 h3.article {
 	margin-top:0;
 	color:#494949;
 	font-weight:bold;
-	font-size:45px;
+	font-size:50px;
 }
