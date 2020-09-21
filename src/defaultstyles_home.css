@@ -42,7 +42,7 @@ img { border:none; }
 body {
 	margin:0;
 	padding:0;
-	background-color:#888;
+	background-color:rgb(238, 237, 237);
 	color:#333;
 	font-family:"Lucida Sans Unicode", "Lucida Grande", Arial, Helvetica, sans-serif;
 }
