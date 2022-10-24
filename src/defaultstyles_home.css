@@ -44,20 +44,21 @@ body {
 	padding:0;
 	background-color:rgb(238, 237, 237);
 	color:#333;
-	font-family:"Lucida Sans Unicode", "Lucida Grande", Arial, Helvetica, sans-serif;
+	/* font-family:"Lucida Sans Unicode", "Lucida Grande", Arial, Helvetica, sans-serif; */
+    font-family: "Nunito", Arial, Helvetica, sans-serif;
 }
 
 #container {
-	width:1000px;
+	width:1030px;
 	margin:auto;
-	font-size:14px;
+	font-size:16px;
 	position: relative;
 }
 
 #container2 {
-	width:1000px;
+	width:1030px;
 	margin:auto;
-	font-size:14px;
+	font-size:16px;
 	position: relative;
 	background: #ffffff;
 }
@@ -83,7 +84,7 @@ body {
 	-webkit-border-top-right-radius:10px;
 	background-color:#FFF;
 	margin:0;
-	background-image: url(img/alps.jpg);
+	background-image: url(img/marrylake.jpeg);
 	background-size: 100%;
 }
 		
@@ -96,7 +97,7 @@ div.back {
 #banner_posts p {
 	margin:0;
 	text-transform: uppercase;
-	font-size:14px;
+	font-size:16px;
 	padding-left:1em
 }
 
@@ -109,14 +110,27 @@ div.back {
 	-webkit-border-top-right-radius:10px;
 	background-color:#FFF;
 	margin:0;
-	background-image: url(img/forest.jpg);
+	background-image: url(img/page.jpeg);
+	background-size: 100%;
+}
+
+#banner_software {
+	color:#FFF;
+	padding:25px;
+	-moz-border-radius-topleft:10px;
+	-webkit-border-top-left-radius:10px;
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	background-color:#FFF;
+	margin:0;
+	background-image: url(img/zion.jpeg);
 	background-size: 100%;
 }
 
 #banner_index p {
 	margin:0;
 	text-transform: uppercase;
-	font-size:14px;
+	font-size:16px;
 	padding-left:1em
 }
 
@@ -136,7 +150,7 @@ div.back {
 #banner_bio p {
 	margin:0;
 	text-transform: uppercase;
-	font-size:14px;
+	font-size:16px;
 	padding-left:1em
 }
 
@@ -156,7 +170,7 @@ div.back {
 #banner_teaching p {
 	margin:0;
 	text-transform: uppercase;
-	font-size:14px;
+	font-size:16px;
 	padding-left:1em
 }
 
@@ -176,7 +190,7 @@ div.back {
 #banner_publications p {
 	margin:0;
 	text-transform: uppercase;
-	font-size:14px;
+	font-size:16px;
 	padding-left:1em
 }
 
@@ -196,7 +210,7 @@ div.back {
 #banner_contact p {
 	margin:0;
 	text-transform: uppercase;
-	font-size:14px;
+	font-size:16px;
 	padding-left:1em
 }
 
@@ -255,7 +269,7 @@ h1 {
 	min-width:210px;
 	margin:0 15px;
 	float:right;
-	line-height:140%;
+	line-height:160%;
 	background-color:#EEE;
 	border: 1px solid #E5E5E5;
 }
@@ -282,14 +296,14 @@ h1 {
 
 h2 {
 	margin-top:0;
-	color:#494949;
+	/* color:#494949; */
 	font-weight:bold;
 	font-size:200%;
 }
 
 h3 {
 	margin-top:0;
-	color:#000000;
+	/* color:#000000; */
 	font-weight:bold;
 	font-size:120%;
 }
@@ -314,7 +328,7 @@ h3.pattern {
 	color:#2968D0;
 	font-weight:normal;
 	font-size:120%;
-	font-family:"Lucida Grande"
+	font-family:"Nunito"
 }
 
 .photo_btn {
@@ -346,7 +360,7 @@ h3.pattern {
 	margin-left: 0px;
 	margin-bottom: 0px;
 	float:left;
-	line-height:140%;
+	line-height:160%;
 	background-color:#EEE;
 	border: 1px solid #E5E5E5;
 }
@@ -392,7 +406,7 @@ td {
 	margin: 0;
 }
 
-table{font-size:14px;}
+table{font-size:16px;}
 
 
 
@@ -450,6 +464,10 @@ h3.article_web {
 	color:#494949;
 	font-weight:bold;
 	font-size:220%;
+}
+
+font.name {
+    color:maroon
 }
 
 .button1 {
